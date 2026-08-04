@@ -1,17 +1,16 @@
     /* Add CSS Styling */
-    .first, .third, .fifth {
+    .odd {
         background-color: pink;
-        font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+        font-family: Verdana, "DejaVu Sans", sans-serif;
     }
     #second {
-        color: blue;
+        color: rgb(193, 193, 248);
         font-size: 36px;
     }
-    .third {
+    .size {
         font-size: 24px;
     }
     #fourth {
         background-color: lightgreen;
-        font-size: 24px;
         font-weight: bold;
     }
