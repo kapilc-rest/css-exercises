@@ -36,11 +36,10 @@ input {
 .page {
   display: flex;
   flex-direction: column;
-  ju
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin-bottom: auto;
 }
