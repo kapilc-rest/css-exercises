@@ -16,7 +16,6 @@ body {
 
 .plant {
   display: flex;
-  flex-wrap: wrap;
   width: 200px;
   justify-content: center;
 }
