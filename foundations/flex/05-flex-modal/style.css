@@ -24,6 +24,10 @@ body {
   padding: 8px;
 }
 
+.texts {
+  flex-direction: column;
+}
+
 .head {
   display: flex;
   justify-content: space-between;
