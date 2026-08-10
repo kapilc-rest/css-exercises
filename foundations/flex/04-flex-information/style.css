@@ -11,12 +11,14 @@ body {
 
 .images {
   display: flex;
+  gap: 52px;
 }
 
 .plant {
   display: flex;
   flex-wrap: wrap;
-  gap: 52px;
+  width: 200px;
+  align-items: center;
 }
 
 img {
@@ -30,6 +32,9 @@ img {
   text-align: center;
 }
 
+.text {
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
