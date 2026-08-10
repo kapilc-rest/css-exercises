@@ -12,7 +12,11 @@ img {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  padding: 4px;
+  margin: 0;
+  gap: 8px;
 }
 
 a {
@@ -38,8 +42,16 @@ input {
   flex-direction: column;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
+}
+
+.header {
   margin-bottom: auto;
+}
+
+.footer {
+  margin-top: auto;
 }
