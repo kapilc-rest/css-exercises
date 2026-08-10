@@ -28,6 +28,8 @@ body {
 .body {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  min-width: 0;
 }
 
 .head {
@@ -42,7 +44,6 @@ body {
 }
 
 .text {
-  flex-wrap: wrap;
   margin-bottom: 16px;
 }
 
