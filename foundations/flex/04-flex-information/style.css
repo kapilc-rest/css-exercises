@@ -4,7 +4,11 @@ body {
 
 .section {
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
 }
 
 img {
@@ -15,7 +19,6 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
 }
 
 /* do not edit this footer */
