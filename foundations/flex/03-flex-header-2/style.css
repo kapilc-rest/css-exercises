@@ -55,16 +55,8 @@ ul {
   gap: 16px;
 }
 
-.left-links{
+.left-links, .right-links {
   display: flex;
-  flex-shrink: 0;
-  margin-right: auto;
-  justify-content: center;
-  gap: 16px;
-}
-
-.right-links {
-  display: flex;
-  margin-left: auto;
+  align-items: center;
   gap: 16px;
 }
