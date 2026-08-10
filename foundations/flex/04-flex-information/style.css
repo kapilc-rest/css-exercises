@@ -13,6 +13,7 @@ body {
 
 .plant {
   display: flex;
+  flex-wrap: wrap;
 }
 
 img {
