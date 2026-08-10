@@ -15,6 +15,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: grey;
+  text-decoration: none;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
