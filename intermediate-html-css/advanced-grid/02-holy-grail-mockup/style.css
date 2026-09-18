@@ -45,6 +45,12 @@
   gap: 50px;
   grid-column: 1/2;
   grid-row: 2/4;
+
+  > * {
+    display: grid;
+    justify-items: center; /* horizontal */
+    align-items: center;
+  }
 }
 
 .sidebar .photo {
@@ -53,6 +59,7 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  align-self: stretch;
 }
 
 
